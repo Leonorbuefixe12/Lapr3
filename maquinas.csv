@@ -1,0 +1,5 @@
+id_machine,name_oper,time
+machine_01,cutting,5
+machine_02,drilling,8
+machine_03,polishing,6
+machine_04,painting,4

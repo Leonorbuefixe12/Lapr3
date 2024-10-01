@@ -1,0 +1,4 @@
+id_item,priority,name_oper1,name_oper2,name_oper3
+item_01,1,cutting,drilling,polishing
+item_02,2,cutting,polishing,painting
+item_03,3,cutting,drilling,inspection
