@@ -9,8 +9,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Item> items = readItemsFromCSV("/Lapr3/artigos.csv");
-        List<Machine> machines = readMachinesFromCSV("./maquinas.csv");
+        List<Item> items = readItemsFromCSV("../artigos.csv");
+        List<Machine> machines = readMachinesFromCSV("../maquinas.csv");
 
         // Print loaded data
         for (Item item : items) {
@@ -22,6 +22,8 @@ public class Main {
         for (Machine machine : machines) {
             System.out.println(machine);
         }
+
+        //commenting for testing
     }
 
     private static List<Item> readItemsFromCSV(String filePath) {
