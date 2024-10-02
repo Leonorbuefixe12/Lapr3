@@ -22,6 +22,8 @@ public class Main {
         for (Machine machine : machines) {
             System.out.println(machine);
         }
+
+        //commenting for testing
     }
 
     private static List<Item> readItemsFromCSV(String filePath) {
